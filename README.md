@@ -1,6 +1,11 @@
 # アプリ作成メモ
 ## 下準備
-
+- rails new
+- bin/rails db:create
+- slimに変更
+- bootstrap
+- エラーメッセージの日本語
+    - https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.ymlからコピーした。
 ## モデル作成
 - 全てひな形を作成
 ## コントローラ
