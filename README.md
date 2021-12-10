@@ -1,24 +1,12 @@
-# README
+# アプリ作成メモ
+## 下準備
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## モデル作成
+- 全てひな形を作成
+## コントローラ
+- クエスチョンから作る。
+## ビュー
+- 質問一覧から。とりあえず、全てを表示しよう。あとで未解決などの振り分け。
+## 質問を投稿できるようにする（現場にそって）
+- とりあえずここまで。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
