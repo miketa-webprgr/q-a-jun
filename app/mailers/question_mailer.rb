@@ -1,9 +1,10 @@
 class QuestionMailer < ApplicationMailer
-  def creation_email(question)
-    @question = question
+  def creation_email
+    @question = params[:question]
+    @user = params[:user]
     mail(
       subject: '質問投稿完了メール',
-      to: @question.user.email,
+      to: @user.email,
       from: 'qanda@example.com'
     )
   end
