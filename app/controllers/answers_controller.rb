@@ -5,6 +5,9 @@ class AnswersController < ApplicationController
     @answer.question_id = params[:question_id]
 
     if @answer.save
+
+
+      AnswerMailer.creation_email(@answer).deliver_now
       flash[:notice] = "成功！"
       redirect_to("/questions/#{params[:question_id]}")
     else
